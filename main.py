@@ -25,3 +25,8 @@ def close_all_threads():
 atexit.register(close_all_threads)
 for _t in threads:
     _t.start()
+
+
+"""
+Estrutura dos dados salvos no banco foi alterado para a geração dos gráficos
+"""
